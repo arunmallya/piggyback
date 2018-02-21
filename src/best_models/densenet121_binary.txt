@@ -1,0 +1,14 @@
+################################################################################
+# DenseNet-121 Errors:
+################################################################################
+# CUBS: 19.24
+# Stanford Cars: 10.62
+# Flowers: 4.91
+# Wikiart: 29.33
+# Sketch: 20.05
+################################################################################
+cubs_cropped: ../checkpoints/cubs_cropped/final/densenet121_binarizer_maskscale1e-2-none_lr1e-4-1e-4_decay15-15_2.pt.pt
+stanford_cars_cropped: ../checkpoints/stanford_cars_cropped/final/densenet121_binarizer_maskscale1e-2-none_lr1e-4-1e-4_decay15-15_2.pt.pt
+flowers: ../checkpoints/flowers/final/densenet121_binarizer_maskscale1e-2-none_lr1e-4-1e-4_decay15-15_3.pt.pt
+wikiart: ../checkpoints/wikiart/final/densenet121_binarizer_maskscale1e-2-none_lr1e-4-1e-4_decay15-15_1.pt.pt
+sketches: ../checkpoints/sketches/final/densenet121_binarizer_maskscale1e-2-none_lr1e-4-1e-4_decay15-15_1.pt.pt
