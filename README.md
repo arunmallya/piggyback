@@ -2,7 +2,7 @@
 
 Pretrained masks and backbones are available here: https://uofi.box.com/s/c5kixsvtrghu9yj51yb1oe853ltdfz4q
 
-Datasets in PyTorch format are available here: https://uofi.box.com/s/ixncr3d85guosajywhf7yridszzg5zsq 
+Datasets in PyTorch format are available here: https://uofi.box.com/s/ixncr3d85guosajywhf7yridszzg5zsq  
 All rights belong to the respective publishers. The datasets are provided only to aid reproducibility.
 
 The PyTorch-friendly Places365 dataset can be downloaded from http://places2.csail.mit.edu/download.html 
@@ -50,10 +50,8 @@ This extracts the binary/ternary masks from the above trained models, and saves 
 ## Eval:
 Use the saved masks, apply them to a backbone network and run eval.
 
-By default, our backbone models are those provided with `torchvision`.
-
-Note that to replicate our results, you have to use the package versions specified above.
-
+By default, our backbone models are those provided with `torchvision`.  
+Note that to replicate our results, you have to use the package versions specified above.  
 Newer package versions might have different weights for the backbones, and the provided masks won't work.
 ```bash
 cd src  # Run everything from src/
