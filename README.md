@@ -1,6 +1,6 @@
 ## Piggyback: https://arxiv.org/abs/1801.06519
 
-Pretrained masks and backbones are available here: 
+Pretrained masks and backbones are available here: https://uofi.box.com/s/c5kixsvtrghu9yj51yb1oe853ltdfz4q
 
 Datasets in PyTorch format are available here: https://uofi.box.com/s/ixncr3d85guosajywhf7yridszzg5zsq 
 All rights belong to the respective publishers. The datasets are provided only to aid reproducibility.
