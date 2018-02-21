@@ -1,7 +1,7 @@
 #!/bin/bash
 # Runs the piggyback method using default settings.
 # Usage:
-# ./scripts/run_mask_constant.sh vgg16 3 1 binarizer
+# ./scripts/run_piggyback_training.sh vgg16 3 1 binarizer
 
 # This is hard-coded to prevent silly mistakes.
 declare -A NUM_OUTPUTS
